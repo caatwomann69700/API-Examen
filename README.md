@@ -22,7 +22,7 @@ L'objectif est d'analyser L'API de newsletter disponible à l'adresse https://hb
  Cela respecte le principe d'identification des ressources.
 ### 4 Stateless : 
 + Chaque requête semble contenir toutes les informations nécessaires (par exemple, l'ID de l'email est passé dans l'URI pour les opérations GET, PUT et DELETE), ce qui respecte le principe de stateless.
-### Cachabilité  : 
+### 5 Cachabilité  : 
 + Il n'y a pas de mention explicite sur la gestion du cache dans l'interface. Cela pourrait être un point à améliorer pour être totalement conforme aux principes REST, surtout pour les opérations de type GET, qui pourraient bénéficier de la mise en cache.
 ### Suggestions d'améliorations :
 il serait utile d'ajouter des informations sur la gestion des erreurs. Par exemple, quelles réponses sont renvoyées en cas d'erreur. 
