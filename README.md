@@ -21,6 +21,7 @@
 + Chaque requête semble contenir toutes les informations nécessaires (par exemple, l'ID de l'email est passé dans l'URI pour les opérations GET, PUT et DELETE), ce qui respecte le principe de stateless.
 ### Cachabilité  : 
 + Il n'y a pas de mention explicite sur la gestion du cache dans l'interface. Cela pourrait être un point à améliorer pour être totalement conforme aux principes REST, surtout pour les opérations de type GET, qui pourraient bénéficier de la mise en cache.
-### Suggestions d'améliorations : il serait utile d'ajouter des informations sur la gestion des erreurs. Par exemple, quelles réponses sont renvoyées en cas d'erreur. 
+### Suggestions d'améliorations :
+il serait utile d'ajouter des informations sur la gestion des erreurs. Par exemple, quelles réponses sont renvoyées en cas d'erreur. 
 ## Conclusion : 
 L'API de newsletter respecte les principes RESTful dans l'ensemble. Elle utilise les méthodes HTTP, une structure d'URI claire, et elle semble être stateless mais Quelques améliorations mineures concernant la documentation sur les erreurs et la cachabilité pourraient être apportées pour rendre cette API encore plus robuste et conforme .
