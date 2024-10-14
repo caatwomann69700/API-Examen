@@ -25,4 +25,5 @@ L'objectif est d'analyser L'API de newsletter disponible à l'adresse https://hb
 ### Suggestions d'améliorations :
 il serait utile d'ajouter des informations sur la gestion des erreurs. Par exemple, quelles réponses sont renvoyées en cas d'erreur. 
 ## Conclusion : 
-L'API de newsletter respecte les principes RESTful dans l'ensemble. Elle utilise les méthodes HTTP, une structure d'URI claire, et elle semble être stateless mais Quelques améliorations mineures concernant la documentation sur les erreurs et la cachabilité pourraient être apportées pour rendre cette API encore plus robuste et conforme .
+L'API de newsletter respecte les principes RESTful dans l'ensemble.
+Elle utilise les méthodes HTTP, une structure d'URI, et elle semble être stateless mais Quelques améliorations mineures concernant la documentation sur les erreurs et la cachabilité pourraient être apportées pour rendre cette API encore plus robuste et conforme .
