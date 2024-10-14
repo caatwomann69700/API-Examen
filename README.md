@@ -15,9 +15,11 @@ L'objectif est d'analyser L'API de newsletter disponible à l'adresse https://hb
 + PUT /api/email/{id} : Met à jour un email existant.
 + DELETE /api/email/{id} : Supprime un email spécifique en fonction de son ID.
 ### 2 Méthodes HTTP appropriées  : 
-+ L'utilisation des méthodes HTTP est conforme aux principes REST. Par exemple, GET est utilisé pour récupérer des informations, POST pour créer une nouvelle ressource, PUT pour la mise à jour, et DELETE pour la suppression.
++ L'utilisation des méthodes HTTP est conforme aux principes REST.
+ Par exemple "GET" est utilisé pour récupérer des informations, "POST" pour créer une nouvelle ressource, "PUT" pour la mise à jour, et "DELETE" pour la suppression.
 ### 3  Structure des URI : 
-+ Les URI sont bien structurées et suivent une hiérarchie claire. Par exemple, /api/emails est utilisé pour la collection d'emails, et /api/email/{id} pour accéder à une ressource spécifique. Cela respecte le principe d'identification des ressources.
++ Les URI sont bien structurées. Par exemple /api/emails est utilisé pour la collection d'emails, et /api/email/{id} pour accéder à une ressource spécifique.
+ Cela respecte le principe d'identification des ressources.
 ### 4 Stateless : 
 + Chaque requête semble contenir toutes les informations nécessaires (par exemple, l'ID de l'email est passé dans l'URI pour les opérations GET, PUT et DELETE), ce qui respecte le principe de stateless.
 ### Cachabilité  : 
